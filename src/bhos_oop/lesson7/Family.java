@@ -12,7 +12,7 @@ public class Family {
     public Family(Human mother, Human father) {
         this.mother = mother;
         this.father = father;
-        this.children = new Human[0]; // Initialize empty array
+        this.children = new Human[0];
         this.pet = null;
     }
 
@@ -62,7 +62,6 @@ public class Family {
         child.setFamily(this);
     }
     public Human[] deleteChild(Human child) {
-        // First, check if the child exists in the array
         boolean found = false;
         int index = -1;
 
@@ -76,22 +75,20 @@ public class Family {
 
         if (!found) {
             System.out.println("Child not found.");
-            return children;  // Return the original array if the child wasn't found
+            return children;
         }
 
-        // If the child is found, create a new array with one less element
         Human[] newChildren = new Human[children.length - 1];
         int j = 0;
 
-        // Copy the elements before the child
         for (int i = 0; i < children.length; i++) {
-            if (i != index) {  // Skip the child to be removed
+            if (i != index) {
                 newChildren[j++] = children[i];
             }
         }
 
         System.out.println("Child removed successfully.");
-        return newChildren;  // Return the new array without the child
+        return newChildren;
     }
 
     public boolean removeChild(int index) {
