@@ -1,16 +1,15 @@
 package lesson11;
 
-enum DayOfWeek {
-    MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY, SATURDAY, SUNDAY;
-}
-public class Human {
-    public String name;
-    public String surname;
-    public int year;
-    public int iq;
-    public Pet pet;
-    public String[] schedule = new String[DayOfWeek.values().length];
+import java.time.DayOfWeek;
 
+class Human {
+    protected String name;
+    protected String surname;
+    protected int year;
+    protected int iq;
+    protected Pet pet;
+    protected Family family;
+    protected String[] schedule = new String[DayOfWeek.values().length];
 
     public Human(String name, String surname, int year, int iq, Pet pet, Family family) {
         this.name = name;
@@ -18,6 +17,7 @@ public class Human {
         this.year = year;
         this.iq = iq;
         this.pet = pet;
+        this.family = family;
         initializeSchedule();
     }
 

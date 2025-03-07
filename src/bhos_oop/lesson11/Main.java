@@ -2,41 +2,36 @@ package lesson11;
 
 public class Main {
     public static void main(String[] args) {
-        // Creating a family
-        Man father = new Man("John", "Doe", 1985, 120, null, null);
-        Woman mother = new Woman("Jane", "Doe", 1987, 115, null, null);
-        Family family = new Family(mother, father);
 
-        // Assign the family to parents
-        father.family = family;
-        mother.family = family;
+        Pet dog = new Dog("Rex", 5, 7, new String[] {"fetch", "bark"});
+        Pet cat = new DomesticCat("Whiskers", 3, 8, new String[] {"scratch", "meow"});
+        Pet fish = new Fish("Bubbles", 1, 3, new String[] {"swim", "bubble"});
+        Pet roboCat = new RoboCat("RoboWhiskers", 2, 9, new String[] {"beep", "boop"});
 
-        // Adding a pet
-        Dog dog = new Dog("Buddy", 5, 80, new String[]{"barking", "fetching"});
+
+        Human man = new Man("John", "Doe", 30, 110, dog, null);
+        Human woman = new Woman("Jane", "Doe", 28, 120, cat, null);
+
+
+        Family family = new Family(woman, man);
         family.pet = dog;
-        father.pet = dog;
-        mother.pet = dog;
 
-        // Creating a child
-        Human child = family.bornChild(mother, father);
+        man.greetPet();
+        woman.greetPet();
+
+        Human child = family.bornChild(man,woman);
+        System.out.println("New born child: " + child.name + " " + child.surname);
         family.addChild(child);
 
-        // Displaying family details
-        System.out.println("Father: " + father.name + " " + father.surname);
-        System.out.println("Mother: " + mother.name + " " + mother.surname);
-        System.out.println("Child: " + child.name + " " + child.surname);
-        System.out.println("Pet: " + family.pet.nickname);
 
-        // Family members greeting pet
-        father.greetPet();
-        mother.greetPet();
-        child.greetPet();
+        dog.respond();
+        cat.respond();
+        fish.respond();
+        roboCat.respond();
 
-        // Child-specific actions
-        if (child instanceof Man) {
-            ((Man) child).repairCar();
-        } else if (child instanceof Woman) {
-            ((Woman) child).makeup();
-        }
+
+        ((Foul) dog).foul();
+        ((Foul) cat).foul();
+        System.out.println(family);
     }
 }

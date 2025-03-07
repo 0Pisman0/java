@@ -8,6 +8,6 @@ class RoboCat extends Pet {
 
     @Override
     public void respond() {
-        System.out.println("Beep boop! I am a robot cat.");
+        System.out.println(" I am an ai robot cat. I will take over the world");
     }
 }

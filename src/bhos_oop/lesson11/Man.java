@@ -7,10 +7,14 @@ final class Man extends Human {
 
     @Override
     public void greetPet() {
-        System.out.println("Hey buddy! " + (pet != null ? pet.nickname : "no pet"));
+        System.out.println("Hey buddy come here! " + (pet != null ? pet.nickname : "no pet"));
     }
 
     public void repairCar() {
         System.out.println("Fixing the car...");
+    }
+    @Override
+    public String toString() {
+        return "Man [Name: " + name + ", Surname: " + surname + ", Year: " + year + ", IQ: " + iq + "]";
     }
 }
