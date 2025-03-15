@@ -1,3 +1,5 @@
+package LambdaPractice1;
+
 import java.util.Scanner;
 
 interface PerformOperation {
