@@ -21,7 +21,7 @@ public class Main {
 
     static void checkAge(int age) throws UnderageException {
         if (age < 18) {
-            throw new UnderageException("You must be at least 18 years old.");
+            throw new UnderageException("You must be at least 18 years old!");
         }
         System.out.println("Welcome! You are allowed.");
     }
