@@ -1,21 +1,51 @@
 [ {
-  "courseCode" : "CS001_1"
+  "courseCode" : "CS001_1",
+  "studentGrades" : {
+    "S001" : 85
+  }
 }, {
-  "courseCode" : "CS001_2"
+  "courseCode" : "CS001_2",
+  "studentGrades" : {
+    "S001" : 70
+  }
 }, {
-  "courseCode" : "CS002_1"
+  "courseCode" : "CS002_1",
+  "studentGrades" : {
+    "S002" : 60
+  }
 }, {
-  "courseCode" : "CS002_2"
+  "courseCode" : "CS002_2",
+  "studentGrades" : {
+    "S002" : 54
+  }
 }, {
-  "courseCode" : "CS003_1"
+  "courseCode" : "CS003_1",
+  "studentGrades" : {
+    "S003" : 65
+  }
 }, {
-  "courseCode" : "CS003_2"
+  "courseCode" : "CS003_2",
+  "studentGrades" : {
+    "S003" : 73
+  }
 }, {
-  "courseCode" : "CS004_1"
+  "courseCode" : "CS004_1",
+  "studentGrades" : {
+    "S004" : 67
+  }
 }, {
-  "courseCode" : "CS004_2"
+  "courseCode" : "CS004_2",
+  "studentGrades" : {
+    "S004" : 64
+  }
 }, {
-  "courseCode" : "CS005_1"
+  "courseCode" : "CS005_1",
+  "studentGrades" : {
+    "S005" : 89
+  }
 }, {
-  "courseCode" : "CS005_2"
+  "courseCode" : "CS005_2",
+  "studentGrades" : {
+    "S005" : 85
+  }
 } ]
