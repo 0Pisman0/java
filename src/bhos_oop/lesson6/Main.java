@@ -10,7 +10,7 @@ public class Main {
         List<Exam> exams = new ArrayList<>();
 
 
-        Teacher t1 = new Teacher("Caroline", 35, "F", "T001", "leyla@example.com");
+        Teacher t1 = new Teacher("Coraline", 35, "F", "T001", "leyla@example.com");
         Teacher t2 = new Teacher("Murad", 40, "M", "T002", "murad@example.com");
         teachers.add(t1);
         teachers.add(t2);
