@@ -2,7 +2,7 @@ package lesson6;
 
 import java.util.*;
 
-public class Exam {
+public class Exam implements Gradable {
     private String courseCode;
     private Map<String, Integer> studentGrades = new HashMap<>();
 
