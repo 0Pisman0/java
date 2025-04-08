@@ -2,11 +2,11 @@
   "code" : "CS001_1",
   "name" : "Math",
   "teacher" : {
-    "name" : "Leyla",
+    "name" : "Coraline",
     "age" : 35,
     "gender" : "F",
     "id" : "T001",
-    "email" : "leyla@example.com"
+    "email" : "coraline@example.com"
   },
   "students" : [ {
     "name" : "Student1",
