@@ -1,0 +1,171 @@
+[ {
+  "code" : "CS001_1",
+  "name" : "Math",
+  "teacher" : {
+    "name" : "Leyla",
+    "age" : 35,
+    "gender" : "F",
+    "id" : "T001",
+    "email" : "leyla@example.com"
+  },
+  "students" : [ {
+    "name" : "Student1",
+    "age" : 21,
+    "gender" : "M",
+    "id" : "S001",
+    "email" : "student1@mail.com"
+  } ]
+}, {
+  "code" : "CS001_2",
+  "name" : "History",
+  "teacher" : {
+    "name" : "Murad",
+    "age" : 40,
+    "gender" : "M",
+    "id" : "T002",
+    "email" : "murad@example.com"
+  },
+  "students" : [ {
+    "name" : "Student1",
+    "age" : 21,
+    "gender" : "M",
+    "id" : "S001",
+    "email" : "student1@mail.com"
+  } ]
+}, {
+  "code" : "CS002_1",
+  "name" : "Math",
+  "teacher" : {
+    "name" : "Leyla",
+    "age" : 35,
+    "gender" : "F",
+    "id" : "T001",
+    "email" : "leyla@example.com"
+  },
+  "students" : [ {
+    "name" : "Student2",
+    "age" : 22,
+    "gender" : "M",
+    "id" : "S002",
+    "email" : "student2@mail.com"
+  } ]
+}, {
+  "code" : "CS002_2",
+  "name" : "History",
+  "teacher" : {
+    "name" : "Murad",
+    "age" : 40,
+    "gender" : "M",
+    "id" : "T002",
+    "email" : "murad@example.com"
+  },
+  "students" : [ {
+    "name" : "Student2",
+    "age" : 22,
+    "gender" : "M",
+    "id" : "S002",
+    "email" : "student2@mail.com"
+  } ]
+}, {
+  "code" : "CS003_1",
+  "name" : "Math",
+  "teacher" : {
+    "name" : "Leyla",
+    "age" : 35,
+    "gender" : "F",
+    "id" : "T001",
+    "email" : "leyla@example.com"
+  },
+  "students" : [ {
+    "name" : "Student3",
+    "age" : 23,
+    "gender" : "M",
+    "id" : "S003",
+    "email" : "student3@mail.com"
+  } ]
+}, {
+  "code" : "CS003_2",
+  "name" : "History",
+  "teacher" : {
+    "name" : "Murad",
+    "age" : 40,
+    "gender" : "M",
+    "id" : "T002",
+    "email" : "murad@example.com"
+  },
+  "students" : [ {
+    "name" : "Student3",
+    "age" : 23,
+    "gender" : "M",
+    "id" : "S003",
+    "email" : "student3@mail.com"
+  } ]
+}, {
+  "code" : "CS004_1",
+  "name" : "Math",
+  "teacher" : {
+    "name" : "Leyla",
+    "age" : 35,
+    "gender" : "F",
+    "id" : "T001",
+    "email" : "leyla@example.com"
+  },
+  "students" : [ {
+    "name" : "Student4",
+    "age" : 24,
+    "gender" : "M",
+    "id" : "S004",
+    "email" : "student4@mail.com"
+  } ]
+}, {
+  "code" : "CS004_2",
+  "name" : "History",
+  "teacher" : {
+    "name" : "Murad",
+    "age" : 40,
+    "gender" : "M",
+    "id" : "T002",
+    "email" : "murad@example.com"
+  },
+  "students" : [ {
+    "name" : "Student4",
+    "age" : 24,
+    "gender" : "M",
+    "id" : "S004",
+    "email" : "student4@mail.com"
+  } ]
+}, {
+  "code" : "CS005_1",
+  "name" : "Math",
+  "teacher" : {
+    "name" : "Leyla",
+    "age" : 35,
+    "gender" : "F",
+    "id" : "T001",
+    "email" : "leyla@example.com"
+  },
+  "students" : [ {
+    "name" : "Student5",
+    "age" : 25,
+    "gender" : "M",
+    "id" : "S005",
+    "email" : "student5@mail.com"
+  } ]
+}, {
+  "code" : "CS005_2",
+  "name" : "History",
+  "teacher" : {
+    "name" : "Murad",
+    "age" : 40,
+    "gender" : "M",
+    "id" : "T002",
+    "email" : "murad@example.com"
+  },
+  "students" : [ {
+    "name" : "Student5",
+    "age" : 25,
+    "gender" : "M",
+    "id" : "S005",
+    "email" : "student5@mail.com"
+  } ]
+} ]

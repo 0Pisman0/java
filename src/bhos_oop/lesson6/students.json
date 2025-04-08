@@ -1,0 +1,31 @@
+[ {
+  "name" : "Student1",
+  "age" : 21,
+  "gender" : "M",
+  "id" : "S001",
+  "email" : "student1@mail.com"
+}, {
+  "name" : "Student2",
+  "age" : 22,
+  "gender" : "M",
+  "id" : "S002",
+  "email" : "student2@mail.com"
+}, {
+  "name" : "Student3",
+  "age" : 23,
+  "gender" : "M",
+  "id" : "S003",
+  "email" : "student3@mail.com"
+}, {
+  "name" : "Student4",
+  "age" : 24,
+  "gender" : "M",
+  "id" : "S004",
+  "email" : "student4@mail.com"
+}, {
+  "name" : "Student5",
+  "age" : 25,
+  "gender" : "M",
+  "id" : "S005",
+  "email" : "student5@mail.com"
+} ]
