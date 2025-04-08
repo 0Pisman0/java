@@ -36,5 +36,31 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/.." />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$" />
+          <root url="file://$MODULE_DIR$/lesson1/HW1" />
+          <root url="file://$MODULE_DIR$/lesson1/HW2" />
+          <root url="file://$MODULE_DIR$/lesson1/HW3" />
+          <root url="file://$MODULE_DIR$/lesson2" />
+          <root url="file://$MODULE_DIR$/lesson3" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/Downloads/sagol" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$USER_HOME$/Downloads/sagol" recursive="false" />
+      </library>
+    </orderEntry>
   </component>
 </module>
